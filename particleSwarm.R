@@ -1,3 +1,5 @@
+#This will be finished soon
+
 #Algorytm Particle Swarm Optimization
   particleSwarm <- function(f,v=c(0.5,2.05,2.05),swarmSize=20,maxIter=1000,dim=2){
   #parametry funkcji particleSwarm:

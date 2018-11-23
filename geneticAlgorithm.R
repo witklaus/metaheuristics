@@ -1,3 +1,5 @@
+#Tracking changes
+
 geneticAlgorithm = function(f, x_min, x_max, cel, popSize, pMut, maxIter)
 {
   # geneticAlgorithm
@@ -13,7 +15,7 @@ geneticAlgorithm = function(f, x_min, x_max, cel, popSize, pMut, maxIter)
   result <- list(x_opt = c(), f_opt = c(), x_hist= c(), f_hist= c(), f_mean = c(), time=c(), cumTime=c())
   
   # Check the number of dimensions
-  Dim <- length(x_min) 
+  dim <- length(x_min) 
     
   # Initialize Population
   population <- matrix(NA, nrow = popSize, ncol = cel*Dim)
